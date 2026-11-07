@@ -1,0 +1,27 @@
+; ==============================================================================
+; BIOINFORMATICS SEQUENCE ALIGNMENT - BENCHMARK SAMPLE SEQUENCES
+; ==============================================================================
+
+; --- Pairwise Protein Test Pair (Textbook Dynamic Programming Case) ---
+>seq1_synthetic_protein FKHMEDPLE (Target)
+FKHMEDPLE
+
+>seq2_synthetic_protein FMDTPLNE (Query)
+FMDTPLNE
+
+; --- Pairwise DNA Sequence Pair (Local Conserved Motif Test) ---
+>dna_seq1_target Conserved motif ACACACTA embedded in flanking DNA
+TTTAAACACACTAGGGCCC
+
+>dna_seq2_query Conserved motif AGCACACA embedded in flanking DNA
+CCCGGAGCACACATTTTTT
+
+; --- Multiple Sequence Alignment (Hemoglobin Subunits for Clustal Omega) ---
+>sp|P69905|HBA_HUMAN Hemoglobin subunit alpha (Homo sapiens)
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+
+>sp|P68871|HBB_HUMAN Hemoglobin subunit beta (Homo sapiens)
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+
+>sp|P02042|HBD_HUMAN Hemoglobin subunit delta (Homo sapiens)
+MVHLTPEEKTAVNALWGKVNVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKYH

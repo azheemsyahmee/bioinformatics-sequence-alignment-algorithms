@@ -1,0 +1,18 @@
+# ==============================================================================
+# BIOINFORMATICS SEQUENCE ALIGNMENT SUITE - DEPENDENCY SPECIFICATION
+# ==============================================================================
+
+# Core Algorithms (src/algorithms/):
+# Pure Python 3.8+ Standard Library - ZERO external dependencies required!
+
+# Web Application (src/web/app_streamlit.py):
+streamlit>=1.28.0
+requests>=2.28.0
+pandas>=1.5.0
+
+# Desktop GUI Application (src/gui/app_kivy.py) - Optional:
+kivy>=2.2.0
+
+# Development & Testing - Optional:
+pytest>=7.0.0
+flake8>=6.0.0
