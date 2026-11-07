@@ -82,8 +82,8 @@ class TestSmithWaterman(unittest.TestCase):
 
     def test_custom_penalties(self):
         """Custom match and mismatch weights affect motif extension."""
-        seq1 = "AAACGTTT"
-        seq2 = "TTTCGTAAA"
+        seq1 = "GGGCGTGG"
+        seq2 = "CCCGTCCC"
 
         # Match 'CGT'
         res = smith_waterman(seq1, seq2, match_score=4, mismatch_penalty=-2, gap_penalty=-2)
